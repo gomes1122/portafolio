@@ -1,0 +1,99 @@
+body {    /* Quita el margen y el padding por defecto del body */
+  margin: 0;
+  padding: 0;
+}
+
+#nav1 {
+  color: rgb(255, 255, 255);       /* Texto blanco */
+  text-align: center;              /* Centra el texto horizontalmente */
+  background: rgb(2, 114, 77);     /* Fondo verde oscuro */
+  padding: 30px 30px;              /* Espacio interno de 30px arriba/abajo e izquierda/derecha */
+}
+#nav2 {
+    display: flex;                 /* Activa flexbox */
+    flex-direction: column;        /* Coloca los elementos hijos en columna */
+    text-align: left;              /* Alinea el texto a la izquierda */
+    border-radius: 10px;           /* Esquinas redondeadas */
+    padding: 50px;                 /* Espacio interno alrededor del contenido */
+    margin: 15px auto;             /* Margen arriba/abajo de 15px y centrado horizontal */
+    margin-left: 1150px;           /* Empuja el contenedor hacia la derecha */
+    box-shadow: 5px 5px 15px rgb(255, 255, 255); /* Sombra blanca difusa */
+    width: 400px;                  /* Ancho fijo */
+    margin-top: 10px;              /* Margen superior */
+    background: rgb(247, 243, 243);/* Fondo gris muy claro */
+}
+
+.texto {
+    padding-left: 3px;             /* Pequeño espacio a la izquierda */
+    width: 1150px;                 /* Ancho fijo grande */
+    margin: 8px;                   /* Espacio alrededor */
+}
+.Agenda_tu_cita {
+    text-align: center;            /* Centra el texto */
+    color: rgb(2, 102, 45);     /* Verde más oscuro */
+    font-family: 'Times New Roman';
+    font-weight: 900;
+    font-size: 25px;
+}
+.cita {
+    text-align: center;            /* Centra el texto del botón */
+    background: rgb(4, 177, 119);  /* Fondo verde brillante */
+    padding: 15px;                 /* Relleno interno */
+    margin: 10px;                  /* Espacio externo */
+    border: solid 1px rgb(255, 255, 255); /* Borde blanco */
+    border-radius: 10px;           /* Esquinas redondeadas */
+    color: white;                  /* Texto blanco */
+}
+.cita:hover{/* esto sirve para que cuando el usuario pase el cursos por el el boton cambie de color  */
+    background: rgb(2, 114, 77);
+    cursor: pointer;
+}
+.nav3 {
+    padding: 10px;                 /* Espacio interno */
+    border: solid 1px rgb(200, 200, 200); /* Borde gris claro */
+    border-radius: 5px;            /* Esquinas redondeadas */
+}
+.nav4 {
+  background: rgb(2, 114, 77); /* color verde de fondo */
+  color: white;                /* texto blanco */
+  padding: 20px;               /* espacio interno */
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;                /* pone las columnas una al lado de la otra */
+  justify-content: space-between; /* reparte: izq - centro - der */
+  text-align: left;             /* texto alineado a la izquierda */
+  margin-bottom: 15px;
+}
+
+.columna {
+  flex: 1;          /* cada columna ocupa el mismo ancho */
+  padding: 0 200px;  /* espacio a los lados */
+    font-size: 15px;
+}
+
+.copy {
+  text-align: center; /* centrado abajo */
+  font-size: 20px;
+  margin-top: 10px;
+}
+.img{
+  text-align: left;
+  margin: 490px;
+  margin-top: -638px;
+}
+
+.ofrecemos{
+  text-align: center;   /* centra el texto horizontalmente */
+  margin: 20px;
+  position: relative;
+  top: -450px;
+  margin-right: 438px;
+  font-size: 19px;
+}
+.color_texto{
+  color: rgb(2, 102, 45); 
+  font-weight: bolder;
+  font-size: 25px;
+}
